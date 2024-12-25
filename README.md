@@ -45,6 +45,26 @@ AWS regions consists of one or more isolated locations known as Availbility zone
 Using the AWS Cost Management tool provides default reports to visualize cost and usage at a high level for AWS accounts and services or at the resource level.
 
 ## 💻 Hands on Practice
+The image below shows the different AWS service categories. 
+<img src= "https://github.com/Sleep404-Kunz/Intro-AWS-Mgmt-Console/blob/main/6.png" alt = "Output" width = "700" />
 
+In addition to Regional and zonal AWS services, there is a set of AWS services whose control planes and data planes don't exist independently in each region. These are called Global. 
+The Global services still have separated control and data planes to achieve static stability. The control plane is hosted in a single AWS region while their data plane is globally distributed. 
+
+### *EC2 service* 
+<img src= "https://github.com/Sleep404-Kunz/Intro-AWS-Mgmt-Console/blob/main/7.png" alt = "Output" width = "700" />
+
+EC2 is a regional services, currently in Ohio region. All data are the resources provisioned in the Ohio Region. Different regions would have different resources provisioned according to the requirements. 
+EC2 also has a global view that shows the instances running in different regions. 
+<img src= "https://github.com/Sleep404-Kunz/Intro-AWS-Mgmt-Console/blob/main/8.png" alt = "Output" width = "700" />
+
+### *RDS service (Relational Database Service)* 
+<img src= "https://github.com/Sleep404-Kunz/Intro-AWS-Mgmt-Console/blob/main/9.png" alt = "Output" width = "700" />
+
+RDS is not a global service. It is important to make careful considerations about where to provision the resources according to what regions have the resources. 
+
+### *VPC service (Virtual Private Cloud)*
+Be sure to select the correct region so that the cost of the serivces used is accurate and matches the region your services are in. An example is shown with the VPC service below. 
+<img src= "https://github.com/Sleep404-Kunz/Intro-AWS-Mgmt-Console/blob/main/10.png" alt = "Output" width = "700" />
 
 
