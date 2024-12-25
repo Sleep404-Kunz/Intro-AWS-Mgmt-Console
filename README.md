@@ -25,11 +25,13 @@ Serivces can be accessed in one of 3 ways:
 
 ## 🧾Billing Considerations
 AWS services are affected by region and the payment models. AWS cost explorer can be used to view and analyze teh costs and usage.
+
 <img src= "https://github.com/Sleep404-Kunz/Intro-AWS-Mgmt-Console/blob/main/4.png" alt = "Output" width = "700" />
 
 A region is an isolated geographic area where AWS data centers house the hardware that is used for building cloud infrastructure. The AWS regions are regularly updated and can be found in the following link (https://aws.amazon.com/about-aws/global-infrastructure/). The region affects the latency of the service, cost and availability. However the access to data, security and capacity are not impacted.
 
 AWS regions consists of one or more isolated locations known as Availbility zones. Availability zones comprises data centers with ultra-low latency and redundancy. They are connected to each other and the Internet so that they won't be simultaneously impacted by a shared fate scenario like earthquake or common points of failure like power generators.
+
 <img src= "https://github.com/Sleep404-Kunz/Intro-AWS-Mgmt-Console/blob/main/5.png" alt = "Output" width = "700" />
 
 ### AWS payment models
@@ -57,6 +59,7 @@ The Global services still have separated control and data planes to achieve stat
 
 EC2 is a regional services, currently in Ohio region. All data are the resources provisioned in the Ohio Region. Different regions would have different resources provisioned according to the requirements. 
 EC2 also has a global view that shows the instances running in different regions. 
+
 <img src= "https://github.com/Sleep404-Kunz/Intro-AWS-Mgmt-Console/blob/main/8.png" alt = "Output" width = "700" />
 
 ### *RDS service (Relational Database Service)* 
@@ -66,6 +69,7 @@ RDS is not a global service. It is important to make careful considerations abou
 
 ### *VPC service (Virtual Private Cloud)*
 Be sure to select the correct region so that the cost of the serivces used is accurate and matches the region your services are in. An example is shown with the VPC service below. 
+
 <img src= "https://github.com/Sleep404-Kunz/Intro-AWS-Mgmt-Console/blob/main/10.png" alt = "Output" width = "700" />
 
 
