@@ -26,9 +26,20 @@ Serivces can be accessed in one of 3 ways:
 ## 🧾Billing Considerations
 AWS services are affected by region and the payment models. AWS cost explorer can be used to view and analyze teh costs and usage.
 
-A region is an isolated geographic area where AWS data centers house the hardware that is used for building cloud infrastructure. 
-The AWS regions are regularly updated and can be found in the following link (https://aws.amazon.com/about-aws/global-infrastructure/
+A region is an isolated geographic area where AWS data centers house the hardware that is used for building cloud infrastructure. The AWS regions are regularly updated and can be found in the following link (https://aws.amazon.com/about-aws/global-infrastructure/). The region affects the latency of the service, cost and availability. However the access to data, security and capacity are not impacted.
 
+AWS regions consists of one or more isolated locations known as Availbility zones. Availability zones comprises data centers with ultra-low latency and redundancy. They are connected to each other and the Internet so that they won't be simultaneously impacted by a shared fate scenario like earthquake or common points of failure like power generators.
 
+### AWS payment models
+1. Pay as you go: Pay only for individual that you need as long as you use them. No contracts or licensing. ***Agile, Responsive, Scalable*** 
+2. Save when you commit: 1 year or 3 year term contract of consistent usage. Provides savings and advantages like recommendations, performance reporting, and budget alerts. ***Better savings*** 
+3. Pay less by using more: Volume based discounts. Option for combination of storage and compute resources depending on need to cut costs. ***Increase cost return on scaled services.***
+
+*Free tier of 1 year for new customers to experiment and find the right fit. 3 types of offers
+1. Free trials: Short term free trial starting with activation of a service.
+2. 12 months free: Expires 1 year after sign-up. (Does not cover high performance compute instances)
+3. Always free: Avaialbe to all AWS customers based on quotas and configurations.
+
+Using the AWS Cost Management tool provides default reports to visualize cost and usage at a high level for AWS accounts and services or at the resource level.
 
 
