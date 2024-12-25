@@ -46,7 +46,7 @@ Using the AWS Cost Management tool provides default reports to visualize cost an
 
 ## 💻 Hands on Practice
 The image below shows the different AWS service categories. 
-<img src= "https://github.com/Sleep404-Kunz/Intro-AWS-Mgmt-Console/blob/main/6.png" alt = "Output" width = "700" />
+<img src= "https://github.com/Sleep404-Kunz/Intro-AWS-Mgmt-Console/blob/main/6.png" alt = "Output" width = "350" />
 
 In addition to Regional and zonal AWS services, there is a set of AWS services whose control planes and data planes don't exist independently in each region. These are called Global. 
 The Global services still have separated control and data planes to achieve static stability. The control plane is hosted in a single AWS region while their data plane is globally distributed. 
