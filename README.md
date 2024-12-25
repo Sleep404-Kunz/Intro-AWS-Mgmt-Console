@@ -25,10 +25,12 @@ Serivces can be accessed in one of 3 ways:
 
 ## 🧾Billing Considerations
 AWS services are affected by region and the payment models. AWS cost explorer can be used to view and analyze teh costs and usage.
+<img src= "https://github.com/Sleep404-Kunz/Intro-AWS-Mgmt-Console/blob/main/4.png" alt = "Output" width = "700" />
 
 A region is an isolated geographic area where AWS data centers house the hardware that is used for building cloud infrastructure. The AWS regions are regularly updated and can be found in the following link (https://aws.amazon.com/about-aws/global-infrastructure/). The region affects the latency of the service, cost and availability. However the access to data, security and capacity are not impacted.
 
 AWS regions consists of one or more isolated locations known as Availbility zones. Availability zones comprises data centers with ultra-low latency and redundancy. They are connected to each other and the Internet so that they won't be simultaneously impacted by a shared fate scenario like earthquake or common points of failure like power generators.
+<img src= "https://github.com/Sleep404-Kunz/Intro-AWS-Mgmt-Console/blob/main/5.png" alt = "Output" width = "700" />
 
 ### AWS payment models
 1. Pay as you go: Pay only for individual that you need as long as you use them. No contracts or licensing. ***Agile, Responsive, Scalable*** 
