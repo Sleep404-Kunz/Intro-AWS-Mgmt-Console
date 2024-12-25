@@ -35,11 +35,14 @@ AWS regions consists of one or more isolated locations known as Availbility zone
 2. Save when you commit: 1 year or 3 year term contract of consistent usage. Provides savings and advantages like recommendations, performance reporting, and budget alerts. ***Better savings*** 
 3. Pay less by using more: Volume based discounts. Option for combination of storage and compute resources depending on need to cut costs. ***Increase cost return on scaled services.***
 
-*Free tier of 1 year for new customers to experiment and find the right fit. 3 types of offers
+***Free tier of 1 year for new customers to experiment and find the right fit. 3 types of offers***
 1. Free trials: Short term free trial starting with activation of a service.
 2. 12 months free: Expires 1 year after sign-up. (Does not cover high performance compute instances)
 3. Always free: Avaialbe to all AWS customers based on quotas and configurations.
 
 Using the AWS Cost Management tool provides default reports to visualize cost and usage at a high level for AWS accounts and services or at the resource level.
+
+## 💻 Hands on Practice
+
 
 
